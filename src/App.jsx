@@ -12,8 +12,8 @@ function App() {
   const addressData = [
     {
       "title": "Address",
-      "Address": '5000 Avemue of the Stars',
-      "Address1": '',
+      "Address": '5000 Avemue',
+      "Address1": 'of the Stars',
       "City": 'Kissimmee ',
       "State": 'FL',
       "ZipCode": '34746'

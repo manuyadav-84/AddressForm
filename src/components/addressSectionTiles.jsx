@@ -7,9 +7,10 @@ import AlertTitle from '@mui/material/AlertTitle';
 
 function AddressSection({ content, addressDatalist, setaddressDatalist }) {
    const { title, Address, Address1, City, State, ZipCode } = content;
-   const [values, setValues] = useState({ Address: '', Address1: '', City: '', State: '', ZipCode: '' });
+   const [values, setValues] = useState(content);
    const [showEditbox, setShowEditbox] = useState(false);
-   const [errorhandel, setErrorHandel] = useState(true)
+   const [errorhandel, setErrorHandel] = useState(true);
+  
 
 
    const handelEdit = () => {
